@@ -32,6 +32,37 @@ namespace BasicoCsharp
             Console.WriteLine(resultadoMultiplicacion);
             Console.WriteLine(resultadoDivision);
             Console.WriteLine(resultadoResiduo);
+            bool comparacionY = true && true;
+            var comparacionO = true || false;
+            bool comparacionIgual = comparacionY == comparacionO;
+            bool valorNegado = !comparacionIgual;
+            string[] nombres = new string[10];
+            nombres[4] = "Ruben";
+            string[] diasDeLaSemana = { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo" };
+            Console.WriteLine("La semana tiene {0} días", diasDeLaSemana.Length);
+            int[] numerosPrimos = { 1, 2, 3, 5, 7, 11 };
+            bool[] celdasMarcadas = new bool[16];
+            if (DateTime.Now.Minute % 2 == 0)
+            {
+                Console.WriteLine("Este minuto es par");
+            }
+            else if (DateTime.Now.Minute == 5)
+            {
+                Console.WriteLine("Este es el minuto 5");
+            }
+            else
+            {
+                Console.WriteLine("Este minuto es impar");
+            }
+
+            string frase = "La programación me permite crear";
+            Console.WriteLine("{0}", frase.ToUpper());
+            Console.WriteLine("{0}", frase.ToLower());
+            Console.WriteLine("{0}{1}", frase.Substring(0,1).ToUpper(), frase.Substring(1, frase.Length - 1).ToLower());
+            int unMillon = 1000000;
+            string numeroComoCaracter = unMillon.ToString();
+
+
         }
 
     }

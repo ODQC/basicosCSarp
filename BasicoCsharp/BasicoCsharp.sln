@@ -1,0 +1,22 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicoCsharp", "BasicoCsharp\BasicoCsharp.csproj", "{FBB57297-1845-441A-A818-DEAE01C62F67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4053B00F-6D2F-476D-81E5-3B25CA32E48D}"
+	ProjectSection(SolutionItems) = preProject
+		CalculadoraBasica.cs = CalculadoraBasica.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB57297-1845-441A-A818-DEAE01C62F67}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{FBB57297-1845-441A-A818-DEAE01C62F67}.Debug|anycpu.Build.0 = Debug|anycpu
+		{FBB57297-1845-441A-A818-DEAE01C62F67}.Release|anycpu.ActiveCfg = Release|anycpu
+		{FBB57297-1845-441A-A818-DEAE01C62F67}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
