@@ -6,6 +6,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4053B00F-6D2F-476D-81E5-3B25CA32E48D}"
 	ProjectSection(SolutionItems) = preProject
 		CalculadoraBasica.cs = CalculadoraBasica.cs
+		EmptyClass.cs = EmptyClass.cs
 	EndProjectSection
 EndProject
 Global

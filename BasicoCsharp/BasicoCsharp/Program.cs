@@ -64,6 +64,17 @@ namespace BasicoCsharp
 
 
         }
+        double resultado = 0;
+        void LimpiarResultado()
+        {
+            resultado = 0;
+        }
+        double Multiplicar(int a, int b)
+        {
+            resultado = a + b;
+            return resultado;
+        }
+
 
     }
 }
